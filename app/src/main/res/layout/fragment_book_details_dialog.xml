@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_remove_black"
+            android:background="@null"
+            android:layout_gravity="end"
+            android:id="@+id/close_dialog" />
+
+        <!-- Book Image -->
+        <ImageView
+            android:id="@+id/dialog_book_image"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/bookread" />
+
+        <!-- Book Title -->
+        <TextView
+            android:id="@+id/dialog_book_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Book Title"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- BOOK ISBN Number -->
+        <TextView
+            android:id="@+id/dialog_book_isbn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Book ISBN"
+            android:textSize="11sp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Book Author -->
+        <TextView
+            android:id="@+id/dialog_book_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Book Author"
+            android:textSize="16sp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal" />
+
+
+        <!-- Book Genre -->
+        <TextView
+            android:id="@+id/dialog_book_genre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Book Genre"
+            android:textSize="16sp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal" />
+
+
+        <!-- Book Page Count -->
+        <TextView
+            android:id="@+id/dialog_book_page_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Book Page Count"
+            android:textSize="16sp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Book Description -->
+        <TextView
+            android:id="@+id/dialog_book_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Book Description"
+            android:textSize="14sp"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Button 1 -->
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Add to Library" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

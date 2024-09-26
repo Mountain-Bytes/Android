@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "133447472432",
+    "project_id": "book-swap-32b21",
+    "storage_bucket": "book-swap-32b21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133447472432:android:f1be8bd16b2a785d5e24f5",
+        "android_client_info": {
+          "package_name": "com.example.bookswap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133447472432-manu868pejmfnnd02geoto3j90bfa07g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bookswap",
+            "certificate_hash": "3e144e0b3ab2591357ee31483784d1cf2f2037b8"
+          }
+        },
+        {
+          "client_id": "133447472432-7vdl2det72iau078kilos96ee21ou4hj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvDezRmPzYL-J1uwBgzFdryXnI4YaVlnE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133447472432-7vdl2det72iau078kilos96ee21ou4hj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
